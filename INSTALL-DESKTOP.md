@@ -1,7 +1,7 @@
 # 桌面安装 / Desktop installation
 
-RC2 的 macOS、Windows 安装与升级步骤见 [INSTALL.md](INSTALL.md)。
-See [INSTALL.md](INSTALL.md) for RC2 macOS and Windows installation and upgrade instructions.
+0.1.0（build 13）的 macOS DMG 与 Windows 便携 ZIP 安装步骤，以及从 RC2 更新时的数据目录变化，见 [INSTALL.md](INSTALL.md)。请保留旧 App 和数据。
 
-RC1 原始桌面安装说明保留在其 [发行附件](https://github.com/memade/nearvia/releases/tag/v0.1.0-rc.1) 中。
-Original RC1 instructions remain in its release assets.
+0.1.0（build 13）的 macOS DMG 與 Windows 可攜式 ZIP 安裝步驟，以及從 RC2 更新時的資料目錄變更，請見 [INSTALL.md](INSTALL.md)。請保留舊 App 與資料。
+
+See [INSTALL.md](INSTALL.md) for the 0.1.0, build 13 macOS DMG and Windows portable ZIP instructions, including data-directory changes when updating from RC2. Retain the previous app and its data.

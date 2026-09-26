@@ -14,9 +14,9 @@ SDK builds include third-party components. Their license texts are staged in
 Dependency versions and the pinned vcpkg baseline are recorded in the SDK
 manifest. Do not infer dependency licensing from SovKit's Apache-2.0 license.
 
-Browser network sharing also links the vendored libuvbrg (MIT, copyright 2026
-memade) and RapidJSON. Their verbatim notices are included as `libuvbrg.txt`
-and `rapidjson.txt` in SDK licenses and Flutter license assets.
+The runtime also links the vendored libuvbrg (MIT, copyright 2026 memade)
+and uses nlohmann JSON. Their verbatim notices are included as `libuvbrg.txt`
+and `nlohmann-json.txt` in SDK licenses and Flutter license assets.
 
 ## SQLCipher
 
@@ -25,7 +25,8 @@ The encrypted business store links SQLCipher Community Edition, copyright
 included as `sqlcipher.txt` in SDK licenses and Flutter license assets.
 The version-pinned build recipe is in `cmake/vcpkg/ports/sqlcipher/`; upstream
 source: https://github.com/sqlcipher/sqlcipher . The private `3rdparty/libdb`
-static library encapsulates all SQLite operations; no SQLite ABI is exported
+static library supplies generic statement and transaction helpers; the SDK
+owns the business store and its SQL. No SQLite ABI is exported
 by SovKit. Preserve SQLCipher's own license and attribution on redistribution.
 
 ## libjuice source availability
