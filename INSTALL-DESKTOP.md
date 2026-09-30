@@ -1,7 +1,7 @@
 # 桌面安装 / Desktop installation
 
-0.1.0（build 13）的 macOS DMG 与 Windows 便携 ZIP 安装步骤，以及从 RC2 更新时的数据目录变化，见 [INSTALL.md](INSTALL.md)。请保留旧 App 和数据。
+直予 **0.1.1 · build 16**：macOS 13+ / Apple Silicon 使用 DMG；Windows 11 / x64 使用未签名便携 ZIP。完整步骤见 [INSTALL.md](INSTALL.md)。
 
-0.1.0（build 13）的 macOS DMG 與 Windows 可攜式 ZIP 安裝步驟，以及從 RC2 更新時的資料目錄變更，請見 [INSTALL.md](INSTALL.md)。請保留舊 App 與資料。
+直予 **0.1.1 · build 16**：macOS 13+ / Apple Silicon 使用 DMG；Windows 11 / x64 使用未簽章可攜式 ZIP。完整步驟見 [INSTALL.md](INSTALL.md)。
 
-See [INSTALL.md](INSTALL.md) for the 0.1.0, build 13 macOS DMG and Windows portable ZIP instructions, including data-directory changes when updating from RC2. Retain the previous app and its data.
+Zhiyu **0.1.1 · build 16**: use the DMG for macOS 13+ / Apple Silicon, or the unsigned portable ZIP for Windows 11 / x64. See [INSTALL.md](INSTALL.md) for installation steps.
